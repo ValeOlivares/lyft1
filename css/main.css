@@ -1,0 +1,101 @@
+/*
+ font-family:
+ */
+body{
+  margin: 0 auto;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.barra{ /* barra superior */
+  position: fixed;
+  display: inline-block;
+  background-color: transparent;
+}
+.lyft-w{
+  position: fixed;
+  width: 60px;
+  position: relative;
+  float: left;
+  margin-top: 30px;
+  margin-left: 90px;
+  z-index: 10;
+}
+
+.login {
+  border: 1px solid white;
+  border-radius: 10px;
+}
+
+a{
+  position: relative;
+  right: 30px;
+  padding:10px;
+  margin-right: 50px;
+  margin-top: 30px;
+  float: right;
+  z-index: 10;
+  color: #fff;
+}
+
+.lyft-img{ /*Primera sección*/
+  position: relative;
+  width: 100%;
+  top: -180px;
+}
+
+.lyft-cuadro{
+  background: #fff;
+  padding: 60px;
+  position: absolute;
+  width: 400px;
+  right:0;
+  top: 100px;
+}
+
+.miles-money{
+  text-transform: uppercase;
+  color: #470084;
+  font-size: 40px;
+  line-height: 0.1;
+  font-weight: 900;
+}
+.signup{
+  font-size: 15px;
+  font-weight: lighter;
+  color: #470084;
+}
+
+.ph{
+  color:#ACACAC;
+  font-size: 15px;
+}
+
+.driver{
+  background-color: #FF00BA;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.ride{
+  color: #ACACAC;
+  text-decoration: underline;
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.applied{
+  color: #ACACAC;
+  font-size: 13px;
+}
+
+.phcuadro{
+  background: linear-gradient(#76278F, #2B1E66);
+  column-count: 2;
+
+}
+
+.phimg{
+  width: 500px;
+}
