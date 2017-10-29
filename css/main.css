@@ -4,13 +4,14 @@
 body{
   margin: 0 auto;
   font-family: 'Montserrat', sans-serif;
-}
+ }
 
 .barra{ /* barra superior */
   position: fixed;
   display: inline-block;
   background-color: transparent;
 }
+
 .lyft-w{
   position: fixed;
   width: 60px;
@@ -19,14 +20,14 @@ body{
   margin-top: 30px;
   margin-left: 90px;
   z-index: 10;
-}
+ }
 
 .login {
   border: 1px solid white;
   border-radius: 10px;
-}
+ }
 
-a{
+.loginA{
   position: relative;
   right: 30px;
   padding:10px;
@@ -43,7 +44,7 @@ a{
   background-position: 0, -180%; /* sube la imagen por el valor negativo*/
 }
 
-.lyft-cuadro{ /*cuadro blanco primera sección*/
+.lyftCuadro{ /*cuadro blanco primera sección*/
   background: #fff;
   padding: 60px;
   position: absolute;
@@ -52,14 +53,14 @@ a{
   top: 100px;
 }
 
-.miles-money{
+.milesMoney{
   text-transform: uppercase;
   color: #470084;
   font-size: 40px;
   line-height: 0.1;
   font-weight: 900;
 }
-.signup{
+.signUp{
   font-size: 15px;
   font-weight: lighter;
   color: #470084;
@@ -99,7 +100,7 @@ a{
   z-index: 10px;
 }
 
-.phcuadro{ /*segunda sección, donde aparece el celular*/
+.phCuadro{ /*segunda sección, donde aparece el celular*/
   background: linear-gradient(#76278F, #2B1E66);
   column-count: 2;
   color: white;
@@ -107,29 +108,29 @@ a{
   padding-top: 80px;
 }
 
-.phcuadro h2 {
+.phCuadro h2 {
     font-size: 30px;
     line-height: 0.6;
 }
 
-.phcuadro p {
+.phCuadro p {
   font-size: 15px;
   padding-bottom: 40px;
   width: 380px;
 }
 
-.phimg{
+.phImg{
   width: 500px;
 }
 
-.contv1, .contv2, .contv3{ /* contenedor videos y textos */
+.contV1, .contV2, .contV3{ /* contenedor videos y textos */
   height:485px;
 }
 
-.text1{
+.text1{ /* primer video */
   width: 200px;
   display: inline-block;
-  padding: 10px;
+  padding: 30px;
 }
 
 .video1{
@@ -139,9 +140,10 @@ a{
   float:right;
 }
 
-.text2 {
+.text2 { /* segundo video */
   width: 300px;
   display: inline-block;
+  padding: 30px;
 }
 
 .video2 {
@@ -151,11 +153,12 @@ a{
   float:left;
 }
 
-.text3{
+.text3{ /* tercer video */
   width: 200px;
   display: inline-block;
   position: absolute;
   left: 0;
+  padding: 30px;
 }
 
 .video3{
@@ -166,23 +169,51 @@ a{
   border: 1px solid black;
 }
 
-.contFooter{
+footer {
   background-color: #383349;
-  width: 100%;
-  height: 300px;
   color: #fff;
-  column-count: 3;
 }
-.logo{
-  width: 100px;
+
+.contFooter{ /*Footer */
+  width: 100%;
+  column-count: 4;
+  padding: 60px;
+}
+
+a:hover{ /* para que cambie de color al pasar el mouse */
+  color: #FF00BA;
+}
+
+ul { /* eliminar el punto que se forma al principio */
+  list-style:none;
+}
+
+.logo{ /* ajustar tamañp de logos del footer */
+  width: 150px;
+  margin: 10px;
 }
 
 .contFooter h2 {
-  font-size: 20px;
+  font-size: 17px;
   text-transform: uppercase;
 }
 
-.contFooter p {
-  font-size: 15px;
+.contFooter a {
+  font-size: 14px;
+  display: list-item;
+  list-style: none;
+  line-height: 3;
+}
 
+.icons {
+  margin-left: 510px;
+}
+
+.fa{
+  padding-left:50px;
+}
+
+.tp{
+  text-align: center;
+  padding-left: 30px;
 }
